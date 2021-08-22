@@ -1,0 +1,23 @@
+
+#开启所有actuator-enddpoint
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+# include: health ,info, **
+  security:
+    enabled: false
+
+
+
+
+
+
+
+
+
+
